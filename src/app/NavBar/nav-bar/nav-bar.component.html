@@ -1,1 +1,3 @@
-<p class="para">nav-bar works!</p>
+<div  class="nav-bar">
+  <a class="categorieName" *ngFor = "let categorieName of categoriesList" routerLink="/{{categorieName}}" >{{categorieName}}</a>
+</div>
