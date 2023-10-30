@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.sass']
 })
 export class NavBarComponent {
-
+  categoriesList=[
+    "Actualités",
+    "Cinéma",
+    "Musique",
+    "Art",
+    "Livres",
+    "Photographie",
+    "Jeux"
+  ];
 }
