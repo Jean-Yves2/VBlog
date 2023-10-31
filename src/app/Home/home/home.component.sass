@@ -1,5 +1,6 @@
 .homeContainer
   display: flex
+  flex-direction: column
   width: 100%
   &_newsContainer
     display: flex
@@ -35,6 +36,32 @@
         &_newImage
           width: 100%
           height: 100%
+  &_cinema
+    &_title
+      display: flex
+      align-items: center
+      align-content: centers
+      flex-wrap: nowrap
+      justify-content: space-between
+      &--hr
+        border: none
+        border-top: 1px solid
+        width: 78%
+    &_containt
+
+      display: flex
+      flex-direction: row
+      width: 100%
+      align-content: center
+      justify-content: space-evenly
+      flex-wrap: wrap
+      align-items: centers
+
+      &_article
+        width: 22%
+        img
+          width: 100%
+
 
 
 
