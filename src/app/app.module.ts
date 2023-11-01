@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './NavBar/nav-bar/nav-bar.component';
 import { FooterComponent } from './Footer/footer/footer.component';
 import { HomeComponent } from './Home/home/home.component';
+import { NgIconsModule } from '@ng-icons/core';
+import { remixTwitterXFill } from '@ng-icons/remixicon';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { HomeComponent } from './Home/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgIconsModule.withIcons({remixTwitterXFill }),
   ],
   providers: [],
   bootstrap: [AppComponent]
